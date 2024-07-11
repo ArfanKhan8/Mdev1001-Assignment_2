@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Inception",
+        "studio": "Warner Bros.",
+        "posterUrl": "https://linktoinceptionposter.com",
+        "rating": 8.8
+    },
+    {
+        "title": "The Dark Knight",
+        "studio": "Warner Bros.",
+        "posterUrl": "https://linktodarkknightposter.com",
+        "rating": 9.0
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "studio": "Castle Rock Entertainment",
+        "posterUrl": "https://linktoshawshankposter.com",
+        "rating": 9.3
+    },
+    
+]
