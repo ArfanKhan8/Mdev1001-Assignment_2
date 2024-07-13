@@ -11,6 +11,15 @@
         android:name="com.study.room.pages.HomePage"
         android:label="HomePage"
         tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_home_page_to_edit_movie_page"
+            app:destination="@+id/edit_movie_page"/>
+    </fragment>
+    <fragment
+        android:id="@+id/edit_movie_page"
+        android:name="com.study.room.pages.EditMoviePage"
+        android:label="Edit Movie"
+        tools:layout="@layout/fragment_edit_movie_page" >
 
     </fragment>
 </navigation>

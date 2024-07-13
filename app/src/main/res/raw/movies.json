@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "studio": "Twentieth Century Fox",
+    "rating": 8.7
+  },
+  {
+    "title": "The Matrix",
+    "studio": "Warner Bros. Pictures",
+    "rating": 8.7
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "studio": "Twentieth Century Fox",
+    "rating": 8.6
+  },
+  {
+    "title": "Back to the Future",
+    "studio": "Universal Pictures",
+    "rating": 8.5
+  },
+  {
+    "title": "Alien",
+    "studio": "Twentieth Century Fox",
+    "rating": 8.5
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "studio": "Paramount Pictures",
+    "rating": 8.4
+  },
+  {
+    "title": "Blade Runner",
+    "studio": "Warner Bros. Pictures",
+    "rating": 8.1
+  },
+  {
+    "title": "The Terminator",
+    "studio": "Orion Pictures",
+    "rating": 8.1
+  },
+  {
+    "title": "The Princess Bride",
+    "studio": "Twentieth Century Fox",
+    "rating": 8.0
+  },
+  {
+    "title": "Star Trek II: The Wrath of Khan",
+    "studio": "Paramount Pictures",
+    "rating": 7.7
+  }
+]

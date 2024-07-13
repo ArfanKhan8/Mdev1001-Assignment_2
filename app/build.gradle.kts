@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.study.room"
-        minSdk = 30
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -75,5 +75,6 @@ dependencies {
     ksp("com.google.dagger:hilt-android-compiler:2.48.1")
 //    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     ksp("com.google.dagger:hilt-compiler:2.48.1")
+    implementation("com.squareup.retrofit2:converter-gson:2.1.0")
 
 }

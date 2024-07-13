@@ -43,14 +43,49 @@ class AppViewModel @Inject constructor(
     fun onEvent(event: AppEvent){
         when(event){
             is AppEvent.AddMovie -> {
-
+                viewModelScope.launch(Dispatchers.IO){
+                    movieDao.upsert(event.movie)
+                    _state.update { state ->
+                        state.copy(
+                            currentMovie = null
+                        )
+                    }
+                }
             }
             is AppEvent.GetMovieById -> {
-
+                viewModelScope.launch(Dispatchers.IO) {
+                    val movie = movieDao.getMovieById(event.id)
+                    _state.update { state ->
+                        state.copy(
+                            currentMovie = movie[0]
+                        )
+                    }
+                }
             }
 
             is AppEvent.UpdateMovie -> {
 
+            }
+
+            AppEvent.OnEditCancel -> {
+                viewModelScope.launch {
+                    _state.update { state ->
+                        state.copy(
+                            currentMovie = null
+                        )
+                    }
+                }
+            }
+
+            is AppEvent.DeleteMovie -> {
+                viewModelScope.launch(Dispatchers.IO) {
+                    movieDao.delete(event.movie)
+                    _state.update { state ->
+                        state.copy(
+                            currentMovie = null
+                        )
+                    }
+                }
             }
         }
     }
