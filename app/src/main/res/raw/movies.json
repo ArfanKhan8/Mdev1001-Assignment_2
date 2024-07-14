@@ -2,51 +2,127 @@
   {
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "studio": "Twentieth Century Fox",
-    "rating": 8.7
+    "rating": 8.7,
+    "posterUrl": "https://m.media-amazon.com/images/I/81aA7hEEykL._AC_SY679_.jpg"
   },
   {
     "title": "The Matrix",
     "studio": "Warner Bros. Pictures",
-    "rating": 8.7
+    "rating": 8.7,
+    "posterUrl": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg"
   },
   {
     "title": "Star Wars: Episode IV - A New Hope",
     "studio": "Twentieth Century Fox",
-    "rating": 8.6
+    "rating": 8.6,
+    "posterUrl": "https://m.media-amazon.com/images/I/911uAMIhbqL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "title": "Back to the Future",
     "studio": "Universal Pictures",
-    "rating": 8.5
+    "rating": 8.5,
+    "posterUrl": "https://www.portsmouthfilmsociety.org.uk/wp-content/uploads/2023/03/back-to-the-future.png"
   },
   {
     "title": "Alien",
     "studio": "Twentieth Century Fox",
-    "rating": 8.5
+    "rating": 8.5,
+    "posterUrl":"https://m.media-amazon.com/images/M/MV5BOGJkY2EyOWYtYWRmNy00ZTEzLTllMDAtYzYzYjA0ZjFhZWJjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg"
   },
   {
     "title": "Raiders of the Lost Ark",
     "studio": "Paramount Pictures",
-    "rating": 8.4
+    "rating": 8.4,
+    "posterUrl":"https://s3.amazonaws.com/nightjarprod/content/uploads/sites/249/2023/10/15113129/ceG9VzoRAVGwivFU403Wc3AHRys-scaled.jpg"
   },
   {
     "title": "Blade Runner",
     "studio": "Warner Bros. Pictures",
-    "rating": 8.1
+    "rating": 8.1,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "title": "The Terminator",
     "studio": "Orion Pictures",
-    "rating": 8.1
+    "rating": 8.1,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAyMTk3ODA2MF5BMl5BanBnXkFtZTcwMTkzNDQyNA@@._V1_.jpg"
   },
   {
     "title": "The Princess Bride",
     "studio": "Twentieth Century Fox",
-    "rating": 8.0
+    "rating": 8.0,
+    "posterUrl": "https://m.media-amazon.com/images/I/7116Aa2ZkRL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "title": "Star Trek II: The Wrath of Khan",
     "studio": "Paramount Pictures",
-    "rating": 7.7
+    "rating": 7.7,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmZiZmM2OTUtZDlmOC00YzYyLThkMGEtZWFkMjJmM2EwZDVkXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+  },
+  {
+    "title": "Jurassic Park",
+    "studio": "Universal Pictures",
+    "rating": 8.1,
+    "posterUrl": "https://i.ebayimg.com/images/g/-ggAAOSwACNgsOd~/s-l1600.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "studio": "New Line Cinema",
+    "rating": 8.8,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "studio": "Universal Pictures",
+    "rating": 7.9,
+    "posterUrl": "https://m.media-amazon.com/images/I/71GfmB1jatL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "studio": "Walt Disney Pictures",
+    "rating": 8.5,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Ghostbusters",
+    "studio": "Columbia Pictures",
+    "rating": 7.8,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGYzNDM0M2QtZDFkNy00OTI2LWIyNjctNjNhNDM5Zjk3NzU2XkEyXkFqcGdeQXVyNjQ3MDg0MTY@._V1_.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "studio": "Columbia Pictures",
+    "rating": 9.3,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "studio": "Miramax Films",
+    "rating": 8.9,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "studio": "Paramount Pictures",
+    "rating": 8.8,
+    "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxY-v3jqcL0Z01G-KuVR_3h1sxRPUctyrKg&s"
+  },
+  {
+    "title": "The Dark Knight",
+    "studio": "Warner Bros. Pictures",
+    "rating": 9.0,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+  },
+  {
+    "title": "Inception",
+    "studio": "Warner Bros. Pictures",
+    "rating": 8.8,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "studio": "20th Century Fox",
+    "rating": 8.8,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   }
 ]

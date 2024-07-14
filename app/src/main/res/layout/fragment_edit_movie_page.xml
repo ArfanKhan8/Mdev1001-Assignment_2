@@ -12,6 +12,9 @@
         android:id="@+id/til_movie_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:hint="Movie Name">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -23,6 +26,9 @@
         android:id="@+id/til_studio_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:hint="Studio Name">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -34,6 +40,9 @@
         android:id="@+id/til_image_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:hint="Image Url">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -45,6 +54,9 @@
         android:id="@+id/til_critics_rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:hint="Critics Rating">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -65,6 +77,7 @@
             android:layout_marginHorizontal="12dp"
             android:layout_marginBottom="6dp"
             android:layout_weight="1"
+            android:backgroundTint="#26454D"
             android:text="Cancel"
             app:cornerRadius="16dp" />
 
@@ -75,6 +88,7 @@
             android:layout_marginHorizontal="12dp"
             android:layout_marginBottom="6dp"
             android:layout_weight="1"
+            android:backgroundTint="#26454D"
             android:text="Save"
             app:cornerRadius="16dp" />
     </LinearLayout>

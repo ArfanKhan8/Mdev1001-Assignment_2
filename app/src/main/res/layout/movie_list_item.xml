@@ -9,7 +9,11 @@
         android:id="@+id/cv_movie_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="4dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        android:backgroundTint="#B6B6B2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,12 +21,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#D7EAEBEC">
 
             <ImageView
                 android:id="@+id/iv_movie_poster"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -32,6 +37,7 @@
                 android:id="@+id/tv_critics_rating"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
                 android:layout_marginStart="12dp"
                 android:layout_marginBottom="12dp"
                 android:text="TextView"
@@ -43,6 +49,7 @@
                 android:id="@+id/tv_movie_studio"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
                 android:layout_marginStart="12dp"
                 android:text="TextView"
                 app:layout_constraintBottom_toTopOf="@+id/tv_critics_rating"
@@ -54,6 +61,7 @@
                 android:id="@+id/tv_movie_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="16dp"
                 android:text="TextView"
