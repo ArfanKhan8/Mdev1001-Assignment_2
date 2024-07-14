@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.Toolbar
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -16,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 import com.study.room.R
 import com.study.room.data.AppEvent
@@ -27,11 +29,13 @@ import kotlinx.coroutines.launch
 class HomePage : Fragment(R.layout.fragment_home_page) {
 
     private lateinit var viewModel: AppViewModel
+    private lateinit var clHomePage: ConstraintLayout
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val recyclerView: RecyclerView = view.findViewById(R.id.rv_movies_list)
         viewModel = ViewModelProvider(requireActivity())[AppViewModel::class.java]
         val fabAddMovie: FloatingActionButton = view.findViewById(R.id.fab_add_movie)
+        clHomePage = view.findViewById(R.id.cl_home_page_layout)
 
         val toolbar: Toolbar? = activity?.findViewById(R.id.materialToolbar)
         toolbar?.title = "Home Page"
@@ -81,7 +85,7 @@ class HomePage : Fragment(R.layout.fragment_home_page) {
                     rating = if(rating == "") 0.0 else rating.toDouble()
                 )
                 viewModel.onEvent(AppEvent.AddMovie(movie))
-                Toast.makeText(requireContext(),"Added $title",Toast.LENGTH_LONG).show()
+                Snackbar.make(clHomePage,"Added $title",Snackbar.LENGTH_LONG).show()
             }.setNegativeButton("Cancel"){dialogInterface, _ ->
                 dialogInterface.dismiss()
             }
